@@ -55,7 +55,7 @@ async function fetchBiggestCity(city){
 async function getStateName(data){
   mainLat = data.coord.lat;
   mainLon = data.coord.lon;
-  const response = await fetch(`http://api.openweathermap.org/geo/1.0/reverse?lat=${mainLat}&lon=${mainLon}&limit=2&appid=${api}`); const data1 = await response.json()
+  const response = await fetch(`https://api.openweathermap.org/geo/1.0/reverse?lat=${mainLat}&lon=${mainLon}&limit=2&appid=${api}`); const data1 = await response.json()
   biggestCity = data1[0]
   state = biggestCity["state"]
   stateName.textContent = state;
