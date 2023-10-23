@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@500&family=Nunito&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+    <div class = "delete"></div>
+    <div class="container">
+            <div id="city-name">Unable to Fetch Weather</div>
+            <div id="state-name">Unable to Fetch State Name</div>
+            <div id = "weather-graphic">
+
+                    <div class = "weather-info">
+                        <div class="temperature">Error</div>
+                        <p class="weather-description"> No Information Available. </p>
+                    </div>
+                <img src="" alt="" srcset="" id="weather-icon">
+                
+            </div>
+            <div class="info">
+                <h4>Feels Like: <span class="feels-like">No Information Available</span></h4>
+                <div class = "hilo">
+                    <h4>High: <span class="high">No Information Available</span></h4>
+                    <h4>Low: <span class="low">No Information Available</span></h4>
+                </div>
+                <h4>Wind-speed: <span class="wind-speed">No Information Available</span></h4>
+                <h4>Sunrise: <span class="sunrise">No Information Available</span></h4>
+                <h4>Sunset: <span class="sunset">No Information Available</span></h4>
+            </div>
+            <p id = "unit"> Unit Type: 
+            <select id="unit-button">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celcius</option>
+            </select>
+            </p>
+            <div class = 'search-text'>
+                <label for="search1">Search by Zip Code:</label>
+                <input type="text" id="search1" name="search1">
+            </div>
+            <div class = 'search-text'>
+                <label for="search2">Search by City:</label>
+                <input type="text" id="search2" name="search1">
+            </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

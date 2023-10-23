@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #unit {
+    font-size: 15px;
+  }
+
+
+#state-name{
+  font-size: 30px;
+  margin-bottom: 50px;
+  padding-left: 100px;
+}
+h4{
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 10px;
+}
+
+  .weather-description{
+    margin-top: 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+  } 
+
+  .temperature{
+    font-size:70px;
+    font-weight: bolder;
+
+  }
+
+   /* image only */
+  #weather-icon{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+
+  }
+
+  .hilo{
+    display: inline-flex;
+  }
+
+  .search-text{
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .high{
+    margin-right: 40px;
+  }
+
+  /* all 3 */
+  #weather-graphic{
+    display: inline-flex;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+  }
+
+ /* temp and description. left 2 */
+  /* .weather-info{
+    
+    /* align-items: center; */
+  
+
+
+
+  .container {
+    font-size: 30px;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(7, 255, 152);
+    /* background: radial-gradient(
+      circle,
+      rgba(251, 242, 133, 0.6334908963585435) 0%,
+      rgba(224, 196, 91, 0.8407738095238095) 35%,
+      rgba(230, 224, 113, 1) 100%
+    ); */
+  }
+
+
+  #city-name {
+    display: flex;
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+  }
+
+
+  
+  .circle {
+    background-color: black;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    margin: 0 15px;
+  }
